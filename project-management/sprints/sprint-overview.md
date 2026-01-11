@@ -106,17 +106,17 @@ flowchart LR
 
 ## Feature Progress Matrix
 
-| Feature                       | Sprint   | Points | Status | Dependencies    |
-| ----------------------------- | -------- | ------ | ------ | --------------- |
-| FR-001: Landing Home Page     | Complete | 5      | ✅     | None            |
-| FR-002: Mobile Hamburger Menu | 1        | 3      | ⏳     | None            |
-| FR-003: Social Proof Section  | 1        | 3      | ⏳     | None            |
-| FR-004: Footer Expansion      | 1        | 2      | ⏳     | None            |
-| FR-005: Hero Visual Assets    | 1        | 2      | ⏳     | None            |
-| FR-006: LLM Connection        | 1        | 8      | ⏳     | Auth (complete) |
-| FR-007: Create Your Prompt    | 2        | 8      | ⭕     | FR-006          |
-| FR-008: Generate Workflow     | 2        | 13     | ⭕     | FR-007          |
-| FR-009: Refine & Optimize     | 3        | 8      | ⭕     | FR-008          |
+| Feature                       | Sprint | Points | Status | Dependencies    |
+| ----------------------------- | ------ | ------ | ------ | --------------- |
+| FR-001: Landing Home Page     | 1      | 5      | ✅     | None            |
+| FR-002: Mobile Hamburger Menu | 1      | 3      | ✅     | None            |
+| FR-003: Social Proof Section  | 1      | 3      | ✅     | None            |
+| FR-004: Footer Expansion      | 1      | 2      | ✅     | None            |
+| FR-005: Hero Visual Assets    | 1      | 2      | ✅     | None            |
+| FR-006: LLM Connection        | 1      | 8      | ✅     | Auth (complete) |
+| FR-007: Create Your Prompt    | 2      | 8      | ⭕     | FR-006          |
+| FR-008: Generate Workflow     | 2      | 13     | ⭕     | FR-007          |
+| FR-009: Refine & Optimize     | 3      | 8      | ⭕     | FR-008          |
 
 **Status Legend**: ⭕ Not Started | ⏳ In Progress | ✅ Completed
 

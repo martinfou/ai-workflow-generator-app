@@ -21,12 +21,12 @@ This is a generic template for creating feature requests. Copy this template whe
 
 # Feature Request: FR-001 - Landing Home Page
 
-**Status**: ⏳ In Progress  
+**Status**: ⭕ Not Started  
 **Priority**: 🔴 Critical / 🟠 High / 🟡 Medium / 🟢 Low  
 **Story Points**: [X] (Fibonacci: 1, 2, 3, 5, 8, 13)  
 **Created**: 2026-01-10  
 **Updated**: 2026-01-10  
-**Assigned Sprint**: Sprint 1
+**Assigned Sprint**: [Sprint Number or "Backlog"]
 
 ## Description
 

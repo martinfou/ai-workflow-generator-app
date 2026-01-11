@@ -67,17 +67,17 @@
 
 **Priority**: 🟠 High
 
-**Status**: ⭕ Not Started
+**Status**: ✅ Completed
 
 **Tasks**:
 
 | Task ID | Task Description                        | Class/Method Reference | Document Reference              | Status | Points | Assignee |
 | ------- | --------------------------------------- | ---------------------- | ------------------------------- | ------ | ------ | -------- |
-| T-101   | Create HamburgerMenu.vue component      | `HamburgerMenu`        | UX Doc - Section 5.1            | ⭕     | 1      |          |
-| T-102   | Implement responsive visibility classes | `AppHeader`            | UX Doc - Responsive Breakpoints | ⭕     | 0.5    |          |
-| T-103   | Create mobile overlay navigation        | `MobileNavOverlay`     | FR-002 AC                       | ⭕     | 0.5    |          |
-| T-104   | Add keyboard navigation support         | Event handlers         | UX Doc - Accessibility          | ⭕     | 0.5    |          |
-| T-105   | Implement smooth open/close animations  | CSS transitions        | UX Doc - Animations             | ⭕     | 0.5    |          |
+| T-101   | Create MobileNavOverlay component  | `MobileNavOverlay`     | UX Doc - Section 5.1            | ✅     | 1      |          |
+| T-102   | Implement responsive visibility | `AppHeader`            | UX Doc - Responsive | ✅     | 0.5    |          |
+| T-103   | Create mobile overlay navigation        | `MobileNavOverlay`     | FR-002 AC                       | ✅     | 0.5    |          |
+| T-104   | Add keyboard navigation support         | Event handlers         | UX Doc - Accessibility          | ✅     | 0.5    |          |
+| T-105   | Implement smooth animations  | CSS transitions        | UX Doc - Animations             | ✅     | 0.5    |          |
 
 **Total Task Points**: 3
 
@@ -111,7 +111,7 @@
 
 **Priority**: 🟡 Medium
 
-**Status**: ⭕ Not Started
+**Status**: ✅ Completed
 
 **Tasks**:
 
@@ -155,7 +155,7 @@
 
 **Priority**: 🟡 Medium
 
-**Status**: ⭕ Not Started
+**Status**: ✅ Completed
 
 **Tasks**:
 
@@ -199,7 +199,7 @@
 
 **Priority**: 🟡 Medium
 
-**Status**: ⭕ Not Started
+**Status**: ✅ Completed
 
 **Tasks**:
 
@@ -221,15 +221,15 @@
 
 **Acceptance Criteria**:
 
-- [ ] LLM Connections page accessible from Settings
-- [ ] Provider cards display connection status (online/testing/error)
-- [ ] Add Provider form with validation
-- [ ] Support for Ollama (local HTTP) configuration
-- [ ] Support for DeepSeek (REST API) configuration
-- [ ] API keys stored encrypted in database
-- [ ] Test Connection button validates settings
-- [ ] Disconnect action shows confirmation modal
-- [ ] Settings secured per user (no cross-user access)
+- [x] LLM Connections page accessible from Settings
+- [x] Provider cards display connection status (online/testing/error)
+- [x] Add Provider form with validation
+- [x] Support for Ollama (local HTTP) configuration
+- [x] Support for DeepSeek (REST API) configuration
+- [x] API keys stored encrypted in database
+- [x] Test Connection button validates settings
+- [x] Disconnect action shows confirmation modal
+- [x] Settings secured per user (no cross-user access)
 
 **Reference Documents**:
 
@@ -250,21 +250,21 @@
 
 **Priority**: 🟠 High
 
-**Status**: ⭕ Not Started
+**Status**: ✅ Completed
 
 **Tasks**:
 
 | Task ID | Task Description                             | Class/Method Reference          | Document Reference   | Status | Points | Assignee |
 | ------- | -------------------------------------------- | ------------------------------- | -------------------- | ------ | ------ | -------- |
-| T-501   | Create LlmProvider and UserLlmSetting models | `LlmProvider`, `UserLlmSetting` | FR-006 Technical     | ⭕     | 1      |          |
-| T-502   | Create database migrations                   | `CreateLlmProvidersTable`       | FR-006 Technical     | ⭕     | 0.5    |          |
-| T-503   | Create LlmService with provider abstraction  | `LlmService`                    | FR-006 Technical     | ⭕     | 1      |          |
-| T-504   | Implement OllamaProvider integration         | `OllamaProvider.connect()`      | FR-006 Technical     | ⭕     | 1      |          |
-| T-505   | Implement DeepSeekProvider integration       | `DeepSeekProvider.connect()`    | FR-006 Technical     | ⭕     | 1      |          |
-| T-506   | Create LlmController with CRUD methods       | `LlmController`                 | FR-006 Technical     | ⭕     | 1      |          |
-| T-507   | Create LlmConnectionSettings.vue component   | `LlmConnectionSettings`         | UX Doc - Section 5.1 | ⭕     | 1      |          |
-| T-508   | Implement real-time validation               | Form validation                 | UX Doc - Pattern 6.2 | ⭕     | 0.5    |          |
-| T-509   | Add connection test endpoint and UI          | `LlmController@test`            | FR-006 AC            | ⭕     | 0.5    |          |
+| T-501   | Create LlmProvider and UserLlmSetting models | `LlmProvider`, `UserLlmSetting` | FR-006 Technical     | ✅     | 1      |          |
+| T-502   | Create database migrations                   | `CreateLlmProvidersTable`       | FR-006 Technical     | ✅     | 0.5    |          |
+| T-503   | Create LlmService with provider abstraction  | `LlmService`                    | FR-006 Technical     | ✅     | 1      |          |
+| T-504   | Implement OllamaProvider integration         | `OllamaProvider.connect()`      | FR-006 Technical     | ✅     | 1      |          |
+| T-505   | Implement DeepSeekProvider integration       | `DeepSeekProvider.connect()`    | FR-006 Technical     | ✅     | 1      |          |
+| T-506   | Create LlmController with CRUD methods       | `LlmController`                 | FR-006 Technical     | ✅     | 1      |          |
+| T-507   | Create LlmConnection settings page           | `LlmConnectionSettings`         | UX Doc - Section 5.1 | ✅     | 1      |          |
+| T-508   | Implement real-time validation               | Form validation                 | UX Doc - Pattern 6.2 | ✅     | 0.5    |          |
+| T-509   | Add connection test endpoint and UI          | `LlmController@test`            | FR-006 AC            | ✅     | 0.5    |          |
 | T-510   | Write unit tests for LlmService              | `LlmServiceTest`                | Implementation Order | ⭕     | 0.5    |          |
 
 **Total Task Points**: 9
@@ -280,11 +280,11 @@
 
 | Story | Feature               | Points | Status         |
 | ----- | --------------------- | ------ | -------------- |
-| 1.1   | Mobile Hamburger Menu | 3      | ⭕ Not Started |
-| 1.2   | Social Proof Section  | 3      | ⭕ Not Started |
-| 1.3   | Footer Expansion      | 2      | ⭕ Not Started |
-| 1.4   | Hero Visual Assets    | 2      | ⭕ Not Started |
-| 1.5   | LLM Connection        | 8      | ⭕ Not Started |
+| 1.1   | Mobile Hamburger Menu | 3      | ✅ Completed |
+| 1.2   | Social Proof Section  | 3      | ✅ Completed |
+| 1.3   | Footer Expansion      | 2      | ✅ Completed |
+| 1.4   | Hero Visual Assets    | 2      | ✅ Completed |
+| 1.5   | LLM Connection        | 8      | ✅ Completed |
 
 **Sprint Burndown**:
 
@@ -337,6 +337,7 @@
 
 ## Document History
 
-| Version | Date       | Changes                          |
-| ------- | ---------- | -------------------------------- |
-| 1.0     | 2026-01-10 | Initial sprint planning document |
+| Version | Date       | Changes                                                                     |
+| ------- | ---------- | --------------------------------------------------------------------------- |
+| 1.0     | 2026-01-10 | Initial sprint planning document                                            |
+| 1.1     | 2026-01-10 | Story 1.5 completed: Fixed DeepSeek API integration and responsive UI fixes |
